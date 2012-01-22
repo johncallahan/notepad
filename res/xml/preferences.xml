@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:summary="Please provide email address" android:key="email" android:title="Email Address"></EditTextPreference>
+    <EditTextPreference android:summary="Email for RTM single tasks" android:key="rtmemail" android:title="Remember the Milk Email"></EditTextPreference>
+    <EditTextPreference android:summary="Email for RTM import" android:title="Remember the Milk Import" android:key="rtmimport"></EditTextPreference>
+    <EditTextPreference android:summary="Subject can be an RTM list name" android:title="Email Subject" android:key="emailsubject"></EditTextPreference>
+	<EditTextPreference android:summary="Default due date" android:title="Default Due Date" android:key="default_duedate"></EditTextPreference>
+	<EditTextPreference android:summary="Default priority" android:title="Default Priority" android:key="default_priority"></EditTextPreference>
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notepad v3</string>
+    <string name="no_notes">No Notes Yet</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="menu_send">Send Notes</string>
+    <string name="menu_wipe">Wipe All</string>
+    <string name="menu_prefs">Preferences</string>
+    <string name="menu_delete">Delete Note</string>
+    <string name="menu_sendit">Send Note</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="email_subject">Notes off android</string>
+    <string name="default_priority">!1</string>
+    <string name="default_duedate">^today</string>
+</resources>
