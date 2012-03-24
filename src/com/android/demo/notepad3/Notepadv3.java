@@ -66,6 +66,8 @@ public class Notepadv3 extends ListActivity {
 
         // and an array of the fields we want to bind those fields to (in this case just text1)
         int[] to = new int[]{R.id.text0,R.id.text1};
+        
+        this.setTitle(getResources().getString(R.string.title) + " - " + Integer.toString(notesCursor.getCount()) + " notes");
 
         // Now create a simple cursor adapter and set it to display
         SimpleCursorAdapter notes = 
